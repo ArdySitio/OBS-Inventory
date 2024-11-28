@@ -13,9 +13,9 @@ import com.ardy.test.inventory.constants.TypeEnum;
 import com.ardy.test.inventory.exception.AppException;
 import com.ardy.test.inventory.model.request.InventoryRequest;
 import com.ardy.test.inventory.model.response.InventoryResponse;
-import com.ardy.test.inventory.presistence.entity.Inventory;
-import com.ardy.test.inventory.presistence.entity.Item;
-import com.ardy.test.inventory.presistence.repository.InventoryRepository;
+import com.ardy.test.inventory.persistence.entity.Inventory;
+import com.ardy.test.inventory.persistence.entity.Item;
+import com.ardy.test.inventory.persistence.repository.InventoryRepository;
 
 import jakarta.validation.Valid;
 

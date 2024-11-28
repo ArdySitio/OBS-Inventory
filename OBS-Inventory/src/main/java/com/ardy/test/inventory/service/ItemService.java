@@ -5,7 +5,7 @@ import org.springframework.data.domain.Pageable;
 
 import com.ardy.test.inventory.model.request.ItemRequest;
 import com.ardy.test.inventory.model.response.ItemResponse;
-import com.ardy.test.inventory.presistence.entity.Item;
+import com.ardy.test.inventory.persistence.entity.Item;
 
 import jakarta.validation.Valid;
 

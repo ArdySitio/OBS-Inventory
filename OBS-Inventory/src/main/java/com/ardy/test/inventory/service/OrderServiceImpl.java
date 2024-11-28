@@ -12,9 +12,9 @@ import com.ardy.test.inventory.constants.ErrorType;
 import com.ardy.test.inventory.exception.AppException;
 import com.ardy.test.inventory.model.request.OrderRequest;
 import com.ardy.test.inventory.model.response.OrderResponse;
-import com.ardy.test.inventory.presistence.entity.Item;
-import com.ardy.test.inventory.presistence.entity.Order;
-import com.ardy.test.inventory.presistence.repository.OrderRepository;
+import com.ardy.test.inventory.persistence.entity.Item;
+import com.ardy.test.inventory.persistence.entity.Order;
+import com.ardy.test.inventory.persistence.repository.OrderRepository;
 
 import jakarta.validation.Valid;
 

@@ -1,4 +1,4 @@
-package com.ardy.test.inventory.presistence.entity;
+package com.ardy.test.inventory.persistence.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

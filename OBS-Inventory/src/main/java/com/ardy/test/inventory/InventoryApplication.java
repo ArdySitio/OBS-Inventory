@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan("com.ardy.test,inventory")
-@EnableJpaRepositories("com.ardy.test.inventory.presistence.repository")
-@EntityScan("com.ardy.test.inventory.presistence.entity")
+@EnableJpaRepositories("com.ardy.test.inventory.persistence.repository")
+@EntityScan("com.ardy.test.inventory.persistence.entity")
 public class InventoryApplication {
 
 	public static void main(String[] args) {

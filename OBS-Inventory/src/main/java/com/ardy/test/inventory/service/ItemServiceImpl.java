@@ -12,8 +12,8 @@ import com.ardy.test.inventory.constants.ErrorType;
 import com.ardy.test.inventory.exception.AppException;
 import com.ardy.test.inventory.model.request.ItemRequest;
 import com.ardy.test.inventory.model.response.ItemResponse;
-import com.ardy.test.inventory.presistence.entity.Item;
-import com.ardy.test.inventory.presistence.repository.ItemRepository;
+import com.ardy.test.inventory.persistence.entity.Item;
+import com.ardy.test.inventory.persistence.repository.ItemRepository;
 
 @Service
 public class ItemServiceImpl implements ItemService {

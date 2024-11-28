@@ -1,11 +1,7 @@
-package com.ardy.test.inventory.presistence.entity;
-
-import com.ardy.test.inventory.constants.TypeEnum;
+package com.ardy.test.inventory.persistence.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -18,12 +14,12 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "inventory")
+@Table(name = "orders")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Inventory {
+public class Order {
 
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,9 +32,8 @@ public class Inventory {
     @Column(nullable = false, name = "quantity")
     private Integer quantity;
 
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false, name = "type")
-    private TypeEnum type;
+    @Column(nullable = false, name = "price")
+    private Integer price;
 
 	public Long getId() {
 		return id;
@@ -64,13 +59,13 @@ public class Inventory {
 		this.quantity = quantity;
 	}
 
-	public TypeEnum getType() {
-		return type;
+	public Integer getPrice() {
+		return price;
 	}
 
-	public void setType(TypeEnum type) {
-		this.type = type;
+	public void setPrice(Integer price) {
+		this.price = price;
 	}
-
+    
     
 }
